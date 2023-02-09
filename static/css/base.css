@@ -1,0 +1,35 @@
+:root {
+    --bg-color: #E4E4E7;
+    --main-cont-bg-color: #FAFAFA;
+    --title-color: black;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    margin: 0 max(calc((100vw - 700px) * 2 / 3), 2rem) 0 max(calc((100vw - 700px) / 3), 2rem);
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+h1 a {
+    color: var(--title-color);
+    text-decoration: none;
+}
+
+h1 a:visited {
+    color: var(--title-color);
+    text-decoration: none;
+}
+
+#main-cont {
+    background-color: var(--main-cont-bg-color);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
